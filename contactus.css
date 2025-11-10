@@ -1,0 +1,321 @@
+.contactus-bg {
+  background-image: url("images/contactusbg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh; 
+  position: relative;
+}
+.contact-enquiry-section {
+  width: 100%;
+  padding: 8vh 5.3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.contact-enquiry-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 5vh;
+  text-align: left;
+  width: 100%;
+  font-family:'Space Grotesk',sans-serif;
+}
+.contact-enquiry-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+.contact-enquiry-formbox {
+  flex: 1 1 45%;
+  background: linear-gradient(180deg, #f4ecff 0%, #dff7ff 100%);
+  border: 0.1rem solid #ddd;
+  border-radius: 1rem;
+  padding: 6vh 3vw;
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.05);
+}
+.contact-enquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.contact-enquiry-input {
+  width: 100%;
+  padding: 2vh 1vw;
+  font-size: 0.8rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.3s ease;
+  font-family: 'Poppins',sans-serif;
+}
+.captcha-refresh-2{
+  display:flex;
+  flex-direction: row;
+  gap:1vw;
+}
+.contact-enquiry-input:focus {
+  border-color: #0026c3;
+}
+ .contact-enquiry-captcha {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.captcha-box {
+  background-color: inherit;
+   border: 0.3px solid #002bdc;
+  padding: 0 1rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.2rem;
+  user-select: none;
+}
+.captcha-box span {
+  display: inline-block;
+  transform-origin: center;
+}
+#captchaInput {
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+}
+#refreshCaptcha {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+ .contact-enquiry-mapbox {
+  flex: 1 1 45%;
+  height: 73vh;       
+  border: 0.1rem solid #ddd;
+  border-radius: 1rem;
+  overflow: hidden;  
+  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.05);
+  background: none;   
+}
+.contact-enquiry-mapbox iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.contact-enquiry-formbox .btn-row{
+     display: flex;
+  justify-content: flex-end;
+  margin-top:1rem;
+}
+@media (max-width: 64rem) { 
+  .contact-enquiry-section {
+    padding: 5vh 4vw;
+    flex-direction: column;
+  }
+  .contact-enquiry-title {
+    font-size: 2.5rem;
+    margin-left: 5vw;
+    margin-bottom: 4vh;
+  }
+  .contact-enquiry-container {
+    gap: 2vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; 
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-enquiry-formbox {
+    flex: 1 1 45%;
+    padding: 5vh 2.5vw;
+    border-radius: 0.8rem;
+    min-height: 45vh; 
+    box-sizing: border-box;
+  }
+  .contact-enquiry-form {
+    gap: 1.8vh;
+  }
+  .contact-enquiry-input {
+    font-size: 0.9rem;
+    padding: 1.8vh 1vw;
+  }
+  .contact-enquiry-captcha {
+    gap: 0.4rem;
+  }
+   .captcha-refresh-2{
+    display:flex;
+    flex-direction: row;
+    gap:1vh;
+  }
+  .captcha-box {
+    padding: 0 0.8rem;
+    font-size: 1.4rem;
+  }
+  #captchaInput {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.95rem;
+  }
+  #refreshCaptcha {
+    font-size: 1.4rem;
+  }
+  .contact-enquiry-mapbox {
+    flex: 1 1 45%;
+    padding: 5vh 2.5vw;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    min-height: 45vh; 
+  }
+  .contact-enquiry-formbox .btn-row {
+    margin-top: 0.8rem;
+    justify-content: center;
+  }
+}
+/* 768px (Tablets Portrait) */
+@media (max-width: 48rem) { 
+  .contact-enquiry-section {
+    padding: 4.5vh 4vw;
+  }
+  .contact-enquiry-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 3.5vh;
+  }
+  .contact-enquiry-container {
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+  }
+  .contact-enquiry-formbox {
+    width: 90%;
+    padding: 4vh 3vw;
+    border-radius: 0.8rem;
+    min-height: 40vh; 
+    box-sizing: border-box;
+  }
+  .contact-enquiry-form {
+    gap: 1.5vh;
+  }
+  .contact-enquiry-input {
+    font-size: 0.85rem;
+    padding: 1.5vh 1vw;
+  }
+  .contact-enquiry-captcha {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1vh;
+  }
+  .captcha-refresh-2{
+    display:flex;
+    flex-direction: row;
+    gap:1vh;
+  }
+  .captcha-box {
+    font-size: 1.3rem;
+    padding: 0 0.8rem;
+  }
+  #captchaInput {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.7rem;
+  }
+  #refreshCaptcha {
+    font-size: 1.3rem;
+  }
+  .contact-enquiry-mapbox {
+    width: 90%;
+    padding: 4vh 3vw;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    min-height: 40vh; 
+  }
+  .contact-enquiry-formbox .btn-row {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+/* 480px (Mobile) */
+@media (max-width: 30rem) { 
+  .contact-enquiry-section {
+    padding: 4vh 3vw;
+  }
+  .contact-enquiry-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 3vh;
+  }
+  .contact-enquiry-container {
+    flex-direction: column;
+    gap: 3vh;
+  }
+  .contact-enquiry-formbox {
+    width: 93%;
+    padding: 3.5vh 4vw;
+    border-radius: 0.7rem;
+    min-height: 38vh; 
+    box-sizing: border-box;
+  }
+  .contact-enquiry-form {
+    gap: 1.2vh;
+  }
+  .contact-enquiry-input {
+    font-size: 0.8rem;
+    padding: 1.2vh 1vw;
+    border-radius: 0.4rem;
+  }
+  .contact-enquiry-captcha {
+    flex-direction: row;
+    gap: 1vh;
+    align-items: flex-start;
+  }
+  .captcha-refresh-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    align-items: flex-start;
+  }
+  .captcha-box {
+    font-size: 1.2rem;
+    padding: 0 0.6rem;
+    border-width: 0.2px;
+  }
+  #captchaInput {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.3rem;
+    height:5vh;
+  }
+  #refreshCaptcha {
+    font-size: 1.2rem;
+    margin-top:2vw;
+  }
+  .contact-enquiry-mapbox {
+    width: 93%;
+    padding: 3.5vh 4vw;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+    min-height: 38vh; 
+  }
+  .contact-enquiry-formbox .btn-row {
+    justify-content: center;
+    margin-top: 0.8rem;
+  }
+}
+@media(max-width:360px){
+.contact-enquiry-captcha {
+    flex-direction: column;
+    gap: 1vh;
+    align-items: flex-start;
+  }
+  .captcha-refresh-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    align-items: flex-start;
+  }}

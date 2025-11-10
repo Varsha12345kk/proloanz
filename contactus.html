@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProloanZ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aboutus.css" />
+  <link rel="stylesheet" href="personalloan.css" />
+  <link rel="stylesheet" href="businessloan.css" />
+  <link rel="stylesheet" href="contactus.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <img src="images/logo.svg" alt="ProloanZ Logo" class="logo" />
+      <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+   <li class="dropdown">
+  <a href="#">
+    OUR SERVICES <i class="material-icons">arrow_drop_down</i>
+  </a>
+  <ul class="dropdown-menu">
+    <li class="loan-option">
+      <a href="homeloan.html" class="loan-link">
+      <img src="images/personal-loan.svg" alt="Personal Loan Icon" />
+      <div class="loan-text">
+        <h3>Home Loan</h3>
+        <p>Get Up To ₹10L In 10 Mins</p>
+      </div>
+      </a>
+    </li>
+    <li class="loan-option">
+      <a href="personalloan.html" class="loan-link">
+      <img src="images/business-loan.svg" alt="Business Loan Icon" />
+      <div class="loan-text">
+        <h3>Personal Loan</h3>
+        <p>Get Up To ₹10L In 10 Mins</p>
+      </div>
+      </a>
+    </li>
+    <li class="loan-option">
+      <a href="businessloan.html" class="loan-link">
+      <img src="images/home-loan.svg" alt="Home Loan Icon" />
+      <div class="loan-text">
+        <h3>Business Loan</h3>
+        <p>Get Up To ₹10L In 10 Mins</p>
+      </div>
+      </a>
+    </li>
+    <li class="loan-option">
+      <a href="educationloan.html" class="loan-link">
+      <img src="images/education-loan.svg" alt="Education Loan Icon" />
+      <div class="loan-text">
+        <h3>Education Loan</h3>
+        <p>Get Up To ₹10L In 10 Mins</p>
+      </div>
+      </a>
+    </li>
+    <!-- <li class="loan-option">
+      <a href="businessloan.html" class="loan-link">
+      <img src="images/business-loan-2.svg" alt="Business Loan Icon 2" />
+      <div class="loan-text">
+        <h3>Business Loan</h3>
+        <p>Get Up To ₹10L In 10 Mins</p>
+      </div>
+      </a>
+    </li> -->
+  </ul>
+</li>
+          <li><a href="contactus.html" class="signup-btn-outline">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="sign-up-group">
+      <a href="#" class="signup-btn-outline">SIGN UP</a>
+       <!-- <span class="circle-icon gray">
+    <i class="material-icons">north_east</i>
+  </span> -->
+  </div>
+    </div>
+  </header>
+<!-- About Us Section -->
+<section class="aboutus-section">
+  <div class="contactus-bg">
+    <h2 class="aboutus-title">Contact Us</h2>
+  </div>
+  <section class="contact-enquiry-section">
+  <h2 class="contact-enquiry-title">Enquiry Now</h2>
+  <div class="contact-enquiry-container">
+    <!-- Left Box - Form -->
+    <div class="contact-enquiry-formbox">
+      <form class="contact-enquiry-form">
+        <select class="contact-enquiry-input">
+          <option>Select Your Loan Type</option>
+          <option>Personal Loan</option>
+          <option>Home Loan</option>
+          <option>Education Loan</option>
+          <option>Car Loan</option>
+        </select>
+        <input type="text" class="contact-enquiry-input" placeholder="Name" />
+        <input type="text" class="contact-enquiry-input" placeholder="Phone Number" />
+        <input type="email" class="contact-enquiry-input" placeholder="Email" />
+       <!-- CAPTCHA Section -->
+<div class="contact-enquiry-captcha">
+  <input type="text" id="captchaInput" placeholder="Captcha Verification Code">
+  <div class="captcha-refresh-2">
+  <div id="captcha" class="captcha-box"></div>
+  <button type="button" id="refreshCaptcha" title="Refresh Captcha">↻</button>
+  </div>
+</div>
+
+        <div class="btn-row">
+<a href="#" class="cta-btn1">
+  <span class="btn-text">SUBMIT</span></a>
+      <!-- <span class="circle-icon2 gray">
+        <i class="material-icons">north_east</i>
+      </span> -->
+          </div>
+      </form>
+    </div>
+    <!-- Right Box - Placeholder for Map -->
+    <div class="contact-enquiry-mapbox">
+  <iframe 
+    src="https://www.google.com/maps?q=No%204,5/1,%20Rich%20Homes%20Richmond%20Road,%20Richmond%20Town%20Bangalore-560025,%20Karnataka,%20India&output=embed"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
+</div>
+  </div>
+</section>
+
+<!-- cta section -->
+<section class="cta-section">
+  <div class="cta-content">
+    <h2>Your Goal Can't Wait - Neither Should Your Loan</h2>
+    <div class="cta-wrapper">
+      <a href="#" class="cta-btn">
+        <span class="btn-text">TALK TO A LOAN EXPERT NOW</span>
+      </a>
+      <!-- <span class="circle-icon1 gray">
+        <i class="material-icons">north_east</i>
+      </span> -->
+    </div>
+  </div>
+</section>
+
+<!-- FAQ section -->
+<section class="faq-section">
+  <h2>Frequently Asked Questions.</h2>
+  <details class="faq-item faq1" open>
+    <summary>How Long Does Approval Take?</summary>
+    <p>
+      Most loans get approved within just 24–48 hours, giving people quick access
+      to the money they need without any long wait. This speedy process helps avoid
+      delays and is especially useful for those who need funds urgently, whether it’s
+      for personal or business reasons. Once you submit your application along with
+      the required documents, the bank quickly reviews them and finishes the checks
+      within this time. This means the loan amount is released faster. The quick
+      approval not only saves time but also gives borrowers peace of mind, knowing
+      their financial needs will be taken care of quickly and smoothly.
+    </p>
+  </details>
+  <details class="faq-item faq2">
+    <summary>What’s The Minimum Loan Amount?</summary>
+    <p>
+      The minimum loan amount depends on the bank’s policy, typically starting from
+      a few thousand units.
+    </p>
+  </details>
+  <details class="faq-item faq3">
+    <summary>Do You Charge Processing Fees?</summary>
+    <p>
+      Yes, a nominal processing fee may be charged depending on the loan type and
+      amount.
+    </p>
+  </details>
+  <details class="faq-item faq4">
+    <summary>Can I Repay Early?</summary>
+    <p>
+      Yes, most banks allow early repayment. Some may charge a small prepayment fee.
+    </p>
+  </details>
+</section>
+<!--Enquiry Section-->
+  <section class="enquiry-section">
+    <div class="enquiry-box">
+      <div class="enquiry-left">
+        <h2>Enquiry Now</h2>
+        <img src="images/enquire-img.png" alt="Illustration">
+      </div>
+      <div class="enquiry-right">
+        <form>
+          <div class="input-box">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Phone Number">
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="input-box">
+            <!-- <span class="material-icons">arrow_drop_down</span> -->
+            <select>
+              <option>Select Your Loan Type</option>
+              <option>Home Loan</option>
+              <option>Personal Loan</option>
+              <option>Business Loan</option>
+              <option>Education Loan</option>
+            </select>
+          </div>
+          <div class="input-box message-box">
+             <textarea placeholder="Message"></textarea>
+          </div>
+          <div class="btn-row">
+  <a href="#" class="cta-btn1">SUBMIT</a>
+      <!-- <span class="circle-icon2 gray">
+        <i class="material-icons">north_east</i>
+      </span> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-col row1">
+        <h4>Company</h4>
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+
+      <div class="footer-col row2">
+        <h4>Personal Loans</h4>
+        <ul>
+          <li>Wedding Loan</li>
+          <li>Home Renovation</li>
+          <li>NRI Personal Loan</li>
+          <li>Holiday Loan</li>
+          <li>Top Up Loan</li>
+        </ul>
+      </div>
+
+      <div class="footer-col row3">
+        <h4>Business Loans</h4>
+        <ul>
+          <li>Super fast business loan processing</li>
+          <li>Easy of documentation</li>
+          <li>Collateral Free Loans</li>
+          <li>Best deals from the Market to choose</li>
+          <li>Low interest rate</li>
+          <li>Flexible repayment options</li>
+        </ul>
+      </div>
+
+      <div class="footer-connect">
+        <h4><span class="join1">Join The Conversation- </span>
+          <span class="join2">Let’s Connect</span></h4>
+        <div class="social-icons">
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+  <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>All Rights Reserved © 2025 Loan xyz</p>
+      <div class="footer-terms">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Use</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,672 @@
+.businessloan-bg {
+  background-image: url("images/businessloan.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh; 
+  position: relative;
+}
+.whychoosebusiness{
+    line-height: 2.5vw;
+    margin-bottom:4vw;
+}
+.eligibility-section {
+  max-width: 90%;
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:5vw;
+}
+.eligibility-title {
+  font-size: 3vw;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 8vh;
+  font-family: 'Space Grotesk',sans-serif;
+}
+.eligibility-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 5%;
+  margin-right:7vw;
+}
+.eligibility-left {
+  flex: 1;
+  max-width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eligibility-image {
+  width: 84%;
+  height: 48vh;
+  margin-top:7.3vw;
+  margin-left:8vw;
+}
+.eligibility-right {
+  flex: 1;
+  max-width: 68%;
+  position: relative;
+  min-height: 80vh;
+}
+.criteria-box {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  max-width: 90%;
+  padding: 2vh 1vw;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  position: absolute;
+  border: 0.095rem solid #c7c3cb;
+  font-family: 'Poppins',sans-serif;
+}
+.box1 {
+  background-color: #fff9ea;
+  top: 0;
+  left: -8vw;
+  color:#614a0f;
+}
+.box2 {
+  background-color: #f8f1ff;
+  top: 23vh;
+  left: 2%;
+  color:#5c3781;
+}
+.box3 {
+  background-color: #ecf9fe;
+  top: 45vh;
+  left: 8%;
+  color:#0c4f6a;
+}
+.box4 {
+  background-color: #e9ffe8;
+  top: 67vh;
+  left: -8vw;
+  color:#235723;
+}
+.criteria-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border: 1.6px solid #c7c3cb ;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1.55rem;
+  font-family: 'Space Grotesk',sans-serif;
+  background-color: inherit;
+}
+.docsecbusiness{
+    background-color: #f5f5f5;
+    margin-bottom:5vw;
+}
+.docsecbusiness .documents-heading{
+  margin-top:1.5vw;
+}
+.docsecbusiness .documents-section{
+  margin: 0 0;
+}
+.docsecbusiness .documents-right{
+    margin-top:1.7vw;
+    margin-left:-5vw;
+}
+.docsecbusiness .documents-left img{
+    max-height:60vh;
+    /* margin-bottom:5vw; */
+}
+.steps-section {
+  width: 100%;
+  text-align: center;
+  padding: 6vh 5vw;
+  background: linear-gradient(to bottom, #0b0b17 0%, #0b0b17 70%, #ffffff 70%, #ffffff 100%);
+  margin-bottom:3vw;
+}
+.steps-header h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top:3vw;
+  margin-bottom: 8vh;
+ font-family: 'Space Grotesk',sans-serif;
+}
+.steps-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 0;
+  position: relative;
+}
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.circle-outer {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #0b0b17;
+  border: 0.10rem solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4vw;
+  position: relative;
+  z-index: 2;
+}
+.circle-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #0b0b17;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Space Grotesk',sans-serif;
+}
+.line {
+  width: 26vw;             
+  height: 0.12rem;
+  background-color: #ffffff;
+  position: relative;
+  top: 0;      
+  margin-top:-3vw;           
+}
+.steps-flow .line {
+  align-self: center;     
+}
+.step-label {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 1vh;
+}
+.steps-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2vw;
+  margin-top: 6vh;
+  width: 100%;
+  height:25vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.step-box {
+  flex: 1;
+  border-radius: 1rem;
+  padding: 3vh 6vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0.8vh 1.2vh 0.8vh rgba(0,0,0,0.15);
+}
+.step-box h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top:2vw;
+  margin-bottom: 1.5vh;
+  line-height: 1.4;
+   font-family: 'Space Grotesk',sans-serif;
+   color:#002bdc;
+}
+.step-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Poppins',sans-serif;
+  color:#000000;
+}
+.purple {
+  background-color: #ffffff;
+  color: #000000;
+}
+.blue {
+  background-color: #ffffff;
+  color: #000000;
+}
+.yellow {
+  background-color: #ffffff;
+  color: #000000;
+}
+.circle-outer {
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #0b0b17;
+  border: 0.165rem solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4vw;
+  position: relative;
+  z-index: 2;
+  transition: border-color 0.6s ease-out; 
+}
+.circle-outer.fill-outer {
+  border-color: #F5BA01;
+}
+.circle-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #F5BA01; 
+  color: #0b0b17;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Space Grotesk',sans-serif;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+.circle-inner::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 0.6s ease-out;
+  z-index: -1;
+}
+.circle-inner.fill-inner::after {
+  transform: translate(-50%, -50%) scale(0);
+}
+.line {
+  width: 26vw;             
+  height: 0.12rem;
+  background-color: #ffffff;
+  position: relative;
+  top: 0;      
+  margin-top:-3vw;
+  overflow: hidden;
+}
+.line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F5BA01;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.8s ease-out;
+}
+.line.fill-line::before {
+  transform: scaleX(1);
+}
+/* Responsive @media for 1024px */
+@media (max-width: 1024px) {
+  .whychoosebusiness {
+    line-height: 3.5vw;
+    margin-bottom: 6vw;
+  }
+  .eligibility-section {
+    max-width: 95%;
+    margin: 4vh auto;
+  }
+  .eligibility-title {
+    font-size: 3.7rem;
+    margin-bottom: 5vh;
+  }
+  .eligibility-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+  }
+  .eligibility-left {
+    max-width: 80%;
+  }
+  .eligibility-image {
+    width: 95%;
+    height: 50vh;
+  }
+  .eligibility-right {
+    max-width: 90%;
+    min-height: auto;
+    position: relative;
+    margin-top:4vw;
+    margin-left:7vw;
+  }
+  .criteria-box {
+    position: static;
+    max-width: 100%;
+    font-size: 1.5rem;
+    line-height:4vw;
+    padding: 1.5vh 2vw;
+    margin-bottom: 4vh;
+  }
+  .criteria-square {
+    width: 3.2rem;
+    height: 2.8rem;
+    font-size: 1.2rem;
+  }
+  .docsecbusiness .documents-right {
+    margin-top: 3vw;
+    margin-left: 0;
+  }
+  .docsecbusiness .documents-left img {
+    max-height: 50vh;
+  }
+ .steps-section {
+    padding: 3vh 2.5vw;
+    margin-bottom: 6vw;
+  }
+  .steps-header h2 {
+    font-size: 3.3rem;
+    margin-top: 1.5vw;
+    margin-bottom: 4vh;
+  }
+  .steps-flow {
+    flex-direction: row;
+    gap: 8vh;
+   width: calc(100% - 8vw);
+
+  }
+  .circle-outer {
+    width: 10vw;
+    height: 10vw;
+  }
+  .circle-inner {
+    font-size: 1.5rem;
+  }
+  .line {
+    display: inline-block;
+  }
+   .steps-flow {
+    justify-content: space-between;
+    padding: 0 4vw;
+    width: 100%;
+    gap: 6vw;
+  }
+  .line {
+    /* width: 25vw;   */
+    margin-bottom: 2vw;       
+  }
+  .step-label {
+    font-size: 0.85rem;
+  }
+  .steps-boxes {
+    flex-direction: column;
+    height: auto;
+    gap: 3vh;
+    margin-top: 5vh;
+     width: calc(100% - 8vw);  
+    margin-left: 4vw;
+    margin-right: 4vw;
+    gap: 5vw;
+    flex-direction: column;     
+    height: auto;  
+  }
+  .step-box h3 {
+    font-size: 2.2rem;
+    margin-top: 1vw;
+  }
+  .step-box p {
+    font-size: 1.5rem;
+  }
+  .step-label{
+   font-size:1.5rem;
+  }
+}
+
+/* Responsive @media for 768px */
+@media (max-width: 768px) {
+  .whychoosebusiness {
+    line-height: 3.5vw;
+    margin-bottom: 6vw;
+  }
+  .eligibility-section {
+    max-width: 95%;
+    margin: 4vh auto;
+  }
+  .eligibility-title {
+    font-size: 2.7rem;
+    margin-bottom: 5vh;
+  }
+  .eligibility-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+  }
+  .eligibility-left {
+    max-width: 80%;
+  }
+  .eligibility-image {
+    width: 95%;
+    height: 46vh;
+  }
+  .eligibility-right {
+    max-width: 94%;
+    min-height: auto;
+    position: relative;
+    margin-top:4vw;
+    margin-left:7vw;
+  }
+  .criteria-box {
+    position: static;
+    max-width: 100%;
+    font-size: 1.2rem;
+    padding: 1.5vh 2vw;
+    margin-bottom: 4vh;
+  }
+  .criteria-square {
+    width: 3.2rem;
+    height: 2.8rem;
+    font-size: 1.2rem;
+  }
+  .docsecbusiness .documents-right {
+    margin-top: 3vw;
+    margin-left: 0;
+  }
+  .docsecbusiness .documents-left img {
+    max-height: 50vh;
+  }
+ .steps-section {
+    padding: 3vh 2.5vw;
+    margin-bottom: 6vw;
+  }
+  .steps-header h2 {
+    font-size: 2.3rem;
+    margin-top: 1.5vw;
+    margin-bottom: 4vh;
+  }
+  .steps-flow {
+    flex-direction: row;
+    gap: 8vh;
+   width: calc(100% - 8vw);
+
+  }
+  .circle-outer {
+    width: 10vw;
+    height: 10vw;
+  }
+  .circle-inner {
+    font-size: 1.5rem;
+  }
+  .line {
+    display: inline-block;
+  }
+   .steps-flow {
+    justify-content: space-between;
+    padding: 0 4vw;
+    width: 100%;
+    gap: 6vw;
+  }
+  .line {
+    /* width: 25vw;   */
+    margin-bottom: 2vw;       
+  }
+  .step-label {
+    font-size: 0.85rem;
+  }
+  .steps-boxes {
+    flex-direction: column;
+    height: auto;
+    gap: 3vh;
+    margin-top: 5vh;
+     width: calc(100% - 8vw);  
+    margin-left: 4vw;
+    margin-right: 4vw;
+    gap: 5vw;
+    flex-direction: column;     
+    height: auto;  
+  }
+  .step-box h3 {
+    font-size: 1.9rem;
+    margin-top: 1vw;
+  }
+  .step-box p {
+    font-size: 1.2rem;
+  }
+  .step-label{
+   font-size:1.1rem;
+  }
+}
+/* Responsive @media for 480px */
+@media (max-width: 480px) {
+  .whychoosebusiness {
+    line-height: 11vw;
+    margin-bottom: 7vw;
+    font-size: 1.8rem;;
+  }
+  .eligibility-section {
+    max-width: 100%;
+    margin: 3vh auto;
+  }
+  .eligibility-title {
+    font-size: 2.1rem;
+    margin-bottom: 4vh;
+  }
+  .eligibility-content {
+    flex-direction: column;
+    gap: 3vh;
+  }
+  .eligibility-left {
+    max-width: 100%;
+  }
+  .eligibility-image {
+    width: 90%;
+    height: 31vh;
+  }
+  .eligibility-right {
+    max-width: 90%;
+    min-height: auto;
+    margin-left:7.5vw;
+  }
+  .criteria-box {
+    position: static;
+    max-width: 100%;
+    font-size: 0.95rem;
+    line-height:5.7vw;
+    padding: 1.3vh 3vw;
+    margin-bottom: 3vh;
+  }
+  .criteria-square {
+    width: 2.8rem;
+    height: 3.3rem;
+    font-size: 1rem;
+  }
+  .docsecbusiness .documents-right {
+    margin-top: 4vw;
+    margin-left: 5vw;
+     margin-right: 5vw;
+  }
+  .docsecbusiness .documents-left img {
+    max-height: 45vh;
+  }
+  .docsecbusiness .documents-right ul li:nth-child(4) span {
+        font-size: 1.1rem;
+        margin-bottom: -0.2vh;
+        line-height:6vw;
+    }
+    .docsecbusiness .documents-right ul li:nth-child(4) img{
+     margin-top:-7vw;
+   }
+  .steps-section {
+    padding: 3vh 2.5vw;
+    margin-bottom: 6vw;
+  }
+  .steps-header h2 {
+    font-size: 1.8rem;
+    margin-top: 1.5vw;
+    margin-bottom: 4vh;
+  }
+  .steps-flow {
+    flex-direction: row;
+    gap: 8vh;
+   width: calc(100% - 8vw);
+
+  }
+  .circle-outer {
+    width: 10vw;
+    height: 10vw;
+  }
+  .circle-inner {
+    font-size: 1rem;
+  }
+  .line {
+    display: inline-block;
+  }
+   .steps-flow {
+    justify-content: space-between;
+    padding: 0 4vw;
+    width: 100%;
+    gap: 6vw;
+  }
+  .line {
+    /* width: 25vw;   */
+    margin-bottom: 5vw;       
+  }
+  .step-label {
+    font-size: 0.85rem;
+  }
+  .steps-boxes {
+    flex-direction: column;
+    height: auto;
+    gap: 3vh;
+    margin-top: 5vh;
+     width: calc(100% - 8vw);  
+    margin-left: 4vw;
+    margin-right: 4vw;
+    gap: 5vw;
+    flex-direction: column;     
+    height: auto;  
+  }
+  .step-box h3 {
+    font-size: 1.6rem;
+    margin-top: 1vw;
+  }
+  .step-box p {
+    font-size: 0.95rem;
+  }
+  .businessloan-bg {
+    background-image: url(images/businessloan.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    position: relative;
+}
+}

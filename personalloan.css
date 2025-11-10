@@ -1,0 +1,232 @@
+.personalloan-bg {
+  background-image: url("images/personal-loan-img.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 55vh; 
+  position: relative;
+}
+.why-choose .why-wrapper .why-card .why-card1 h2 {
+  font-size: 2rem !important;
+}
+.documents-section {
+    width: 100vw;
+    min-height: 50vh;
+    margin: 7vh auto;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    }
+.documents-heading {
+    font-size: 3vw;
+    margin-top:-1.5vw;
+    margin-bottom: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Space Grotesk',sans-serif;
+    color: #000000;
+}
+.documents-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.documents-left {
+    width: 50%;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.documents-left img {
+    max-width: 95% !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 73vh;
+}
+.documents-right {
+    width: 58%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    line-height: 3.22rem;
+}
+.documents-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.documents-right ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+    font-size: 1.25rem;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+.documents-right ul li img {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+  .why-choose .why-wrapper .why-card .why-card1 h2 {
+    font-size: 2rem !important;
+    line-height:5vw;
+  }
+  .documents-section {
+    padding: 1rem;
+    margin: 5vh auto;
+    min-height: 45vh;
+  }
+  .documents-heading {
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+  }
+  .documents-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .documents-left {
+    width: 90%;
+    padding-right: 0;
+  }
+  .documents-left img {
+    max-width: 95% !important;
+    max-height: 55vh;
+  }
+  .documents-right {
+    width: 90%;
+    padding-left: 0;
+    line-height: 2.5rem;
+    margin-top: 2vh;
+  }
+  .documents-right ul{
+    margin-top:5vw;
+  }
+  .documents-right ul li {
+    font-size: 1.6rem;
+    margin-top:4vw;
+    margin-bottom: 1vh;
+  }
+  .documents-right ul li img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.7rem;
+  }
+}
+
+/* Responsive @media for 768px */
+@media (max-width: 768px) {
+  .why-choose .why-wrapper .why-card .why-card1 h2 {
+    font-size: 1.5rem !important;
+    line-height:5vw;
+  }
+  .documents-section {
+    padding: 1rem;
+    margin: 5vh auto;
+    min-height: 45vh;
+  }
+  .documents-heading {
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+  }
+  .documents-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .documents-left {
+    width: 90%;
+    padding-right: 0;
+  }
+  .documents-left img {
+    max-width: 95% !important;
+    max-height: 55vh;
+  }
+  .documents-right {
+    width: 90%;
+    padding-left: 0;
+    line-height: 2.5rem;
+    margin-top: 2vh;
+  }
+  .documents-right ul{
+    margin-top:5vw;
+  }
+  .documents-right ul li {
+    font-size: 1.3rem;
+    margin-top:4vw;
+    margin-bottom: 1vh;
+  }
+  .documents-right ul li img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.7rem;
+  }
+}
+
+/* Responsive @media for 480px */
+@media (max-width: 480px) {
+  .why-choose .why-wrapper .why-card .why-card1 h2 {
+    font-size: 1.2rem !important;
+  }
+  .documents-section {
+    padding: 0.8rem;
+    margin: 4vh auto;
+    min-height: 40vh;
+  }
+  .documents-heading {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .documents-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .documents-left {
+    width: 100%;
+    padding-right: 0;
+  }
+  .documents-left img {
+    max-width: 90% !important;
+    max-height: 50vh;
+  }
+  .documents-right {
+    width: 100%;
+    padding-left: 0;
+    line-height: 2rem;
+    margin-top: 1.5vh;
+  }
+  .documents-right ul{
+    margin-left:5vw;
+    margin-right:5vw;
+  }
+  .documents-right ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8vh;
+  }
+     .documents-right ul li:nth-child(5) span,.documents-right ul li:nth-child(3) span {
+    font-size: 1.1rem;
+    margin-bottom: -0.2vh;
+    line-height: 5vw;
+}
+  .documents-right ul li img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.7rem;
+  }
+   .documents-right ul li:nth-child(5) img,.documents-right ul li:nth-child(3) img{
+     margin-top:-1vw;
+   }
+  .personalloan-bg {
+  background-image: url("images/personal-loan-img.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 35vh; 
+  position: relative;
+}
+}
